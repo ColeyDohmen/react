@@ -11,8 +11,9 @@ class Card extends React.Component {
       {/* <img src={profile.avatar_url} /> */}
       
       <div className="info">
-
+      <h1>How's it going?</h1>
       <p>Hullo</p>
+      <p>This is me adding a bunch of extra words that don't actually mean anything.</p>
       </div>
 
       </div>
