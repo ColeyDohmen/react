@@ -4,13 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Info from "./components/Info.js"
-
+import Footer from "./components/Footer"
+import Text from "./components/Text"
 class Card extends React.Component {
   render() {
     return (
     <div className="card" style={{}}>
   
-      
+      <Text />
       {/* <div className="info">
       <h1>How's it going?</h1>
       <p>Hullo</p>
@@ -21,6 +22,7 @@ class Card extends React.Component {
                 <li>2</li>
                 <li>3</li>
                 </ul>   */}
+                <Footer/>
       </div>
     );
   }
@@ -30,6 +32,7 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
     <Info />
+    <Card />
   </React.StrictMode>,
   document.getElementById('root'),
 
