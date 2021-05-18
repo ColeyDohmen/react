@@ -8,7 +8,7 @@ import reportWebVitals from '../reportWebVitals';
 function Footer() {
       return (
      <footer>
-<h4>This is my footer</h4>
+<h4>This is my footer and it looks great</h4>
      </footer>
       );
     
