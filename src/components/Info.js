@@ -14,7 +14,7 @@ class Info extends React.Component {
         <div className="info">
         <h1>How's it going?</h1>
         <p>Hullo</p>
-        <p>This is me adding a bunch of extra words that don't actually mean anything.</p>
+        {/* <p>This is me adding a bunch of extra words that don't actually mean anything.</p> */}
         </div>
                 <ul>
                   <li>1</li>
