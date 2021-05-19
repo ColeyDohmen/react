@@ -6,10 +6,13 @@ import reportWebVitals from '../reportWebVitals';
 
 
 function Text() {
+    const firstName = "Coley"
+    const lastName = "Dohmen"
       return (
     <div>
         <input type="checkbox" />
         <p>Some text here</p>
+        <h3>Hello {firstName + " " + lastName}!</h3>
     </div>
       );
     
