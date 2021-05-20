@@ -27,8 +27,6 @@ function Text() {
     }
       return (
     <div>
-        <input type="checkbox" />
-        <p>Some text here</p>
         <h2>Hello {firstName + " " + lastName}!</h2>
         <h3 style={styles}>Good {timeOfDay}!</h3>
         <h4>It is currently about {date.getHours()} o'clock!</h4>
